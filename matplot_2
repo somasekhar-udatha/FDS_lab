@@ -1,0 +1,8 @@
+from matplotlib.pyplot import *
+x = [100,200,300]
+y = [400,500,600]
+plot(x,y)
+title("GRAPH",fontdict={'fontname':'FreeSerif','fontsize':20})
+xlabel("X")
+ylabel("Y")
+show()
